@@ -320,14 +320,15 @@ namespace WindowsFormsApplication2
                     string wordAfterPoint = InternationalNumericFormatter.FormatWithCulture("L", Convert.ToInt32(resultAfterPoint) , null, new CultureInfo("ar"));
 
                     int lengthAfterPoint = resultAfterPoint.Length;
-                    
+
                     //txtWord.Text = "";
 
                     // MessageBox.Show("result: " + length);
-                    
+
                     //if (length > 2)
                     //        {
                     //string wordToNumberAfterDecimal = "";
+                    MessageBox.Show("");
 
                     switch (lengthAfterPoint)
                     {
@@ -346,7 +347,6 @@ namespace WindowsFormsApplication2
                         case 9:
                             txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " من المليون ";
                             break;
-
                     }
                     //        }
                 }
