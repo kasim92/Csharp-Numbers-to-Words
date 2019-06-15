@@ -328,7 +328,7 @@ namespace WindowsFormsApplication2
                     //if (length > 2)
                     //        {
                     //string wordToNumberAfterDecimal = "";
-                    MessageBox.Show("");
+                   
 
                     switch (lengthAfterPoint)
                     {
