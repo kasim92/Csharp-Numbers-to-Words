@@ -36,6 +36,7 @@
             // 
             // txtWord
             // 
+            this.txtWord.Enabled = false;
             this.txtWord.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWord.Location = new System.Drawing.Point(12, 180);
             this.txtWord.Name = "txtWord";
