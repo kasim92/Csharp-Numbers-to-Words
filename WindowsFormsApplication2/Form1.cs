@@ -63,13 +63,15 @@ namespace WindowsFormsApplication2
                         switch (lengthAfterPoint)
                         {
                             case 3://بالمئة
-                                txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالمئة ";
-                                break;
-                            case 4://بالألف
-                            case 5:
-                            case 6:
                                 txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالألف ";
                                 break;
+                            case 4:
+                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالعشرة الالف ";
+                            break;
+                            case 5:
+                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالمئة الالف ";
+                            break;
+                            case 6:
                             case 7://بالمليون
                             case 8:
                             case 9:
