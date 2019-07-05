@@ -66,10 +66,10 @@ namespace WindowsFormsApplication2
                             txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالألف ";
                             break;
                         case 4:
-                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالعشرة الالف ";
+                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالعشرة ألاف ";
                             break;
                         case 5:
-                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالمئة الالف ";
+                            txtWord.Text = wordBeforePoint + " و " + wordAfterPoint + " بالمئة ألف ";
                             break;
                         case 6:
                         case 7://بالمليون
